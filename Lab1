@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+</head>
+
+<body>
+    <script>
+        var a = 5;
+        var b = 6;
+        var chuVi = (a + b) * 2;
+        var dienTich = a * b;
+        var x = chuVi;
+        var y = dienTich;
+        console.log("----Bai 1----")
+        console.log("Chu vi: ", x);
+        console.log("Dien tich: ", y);
+
+        console.log("----Bai 2----")
+        var a = 3;
+        if (a % 2 == 0) {
+            console.log("a = ",a)
+            console.log("a la so chan")
+
+        } else {
+            console.log("a = ", a)
+            console.log("a la so le")
+        }
+
+        console.log("----Bai 3----")
+        var a = 20;
+        var b = 30;
+        var result;
+        result = a + b;
+        console.log("a = ", a);
+        console.log("b = ", b);
+        console.log("Ket qua: a + b = ", result);
+
+        console.log("Tang a len 1 va giam b di 1:")
+        a = a + 1;
+        b = b - 1;
+        result = a * b;
+        console.log("a = ", a);
+        console.log("b = ", b);
+        console.log("Ket qua: a * b = ", result)
+
+    </script>
+</body>
+
+</html>
